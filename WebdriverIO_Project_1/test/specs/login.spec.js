@@ -26,6 +26,8 @@ describe('DemoTest', () => {
         await LoginPage.login('tomsmith', 'SuperSecretPassword!');   // ✅ FIXED
 
         // await LoginPage.checkMessage('You logged into a secure area!');
+
+        await browser.pause(5000);
     });
 });
 
